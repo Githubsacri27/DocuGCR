@@ -213,7 +213,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Http\\Controllers\\VehiculoController\u003A\u003Asearch\u0028\u0029",
             "name": "search",
-            "summary": "Busca\u0020los\u0020veh\u00EDculos\u0020que\u0020cumplen\u0020con\u0020los\u0020par\u00E1metros\u0020especificados.",
+            "summary": "Busca\u0020los\u0020veh\u00EDculos\u0020que\u0020cumplen\u0020con\u0020los\u0020filtros.",
             "url": "classes/App-Http-Controllers-VehiculoController.html#method_search"
         },                {
             "fqsen": "\\App\\Http\\Middleware\\Authenticate",
@@ -265,6 +265,11 @@ Search.appendIndex(
             "name": "usuario",
             "summary": "Relaci\u00F3n\u0020morf\u0020con\u0020el\u0020modelo\u0020Usuario.",
             "url": "classes/App-Models-Cliente.html#method_usuario"
+        },                {
+            "fqsen": "\\App\\Models\\Cliente\u003A\u003Aalquiler\u0028\u0029",
+            "name": "alquiler",
+            "summary": "",
+            "url": "classes/App-Models-Cliente.html#method_alquiler"
         },                {
             "fqsen": "\\App\\Models\\Cliente\u003A\u003A\u0024table",
             "name": "table",
@@ -376,6 +381,21 @@ Search.appendIndex(
             "summary": "Las\u0020pol\u00EDticas\u0020de\u0020la\u0020aplicaci\u00F3n.",
             "url": "classes/App-Providers-AppServiceProvider.html#property_policies"
         },                {
+            "fqsen": "\\Database\\Factories\\AlquilerFactory",
+            "name": "AlquilerFactory",
+            "summary": "",
+            "url": "classes/Database-Factories-AlquilerFactory.html"
+        },                {
+            "fqsen": "\\Database\\Factories\\AlquilerFactory\u003A\u003Adefinition\u0028\u0029",
+            "name": "definition",
+            "summary": "Define\u0020el\u0020estado\u0020predeterminado\u0020del\u0020modelo.",
+            "url": "classes/Database-Factories-AlquilerFactory.html#method_definition"
+        },                {
+            "fqsen": "\\Database\\Factories\\AlquilerFactory\u003A\u003A\u0024model",
+            "name": "model",
+            "summary": "El\u0020nombre\u0020del\u0020modelo\u0020que\u0020la\u0020f\u00E1brica\u0020crea.",
+            "url": "classes/Database-Factories-AlquilerFactory.html#property_model"
+        },                {
             "fqsen": "\\Database\\Factories\\ClienteFactory",
             "name": "ClienteFactory",
             "summary": "",
@@ -403,8 +423,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Database\\Factories\\UsuarioFactory\u003A\u003Adefinition\u0028\u0029",
             "name": "definition",
-            "summary": "Define\u0020el\u0020estado\u0020predeterminado\u0020del\u0020modelo\u0020de\u0020usuario.",
+            "summary": "Define\u0020el\u0020estado\u0020predeterminado\u0020del\u0020modelo.",
             "url": "classes/Database-Factories-UsuarioFactory.html#method_definition"
+        },                {
+            "fqsen": "\\Database\\Factories\\UsuarioFactory\u003A\u003A\u0024model",
+            "name": "model",
+            "summary": "El\u0020nombre\u0020del\u0020modelo\u0020que\u0020la\u0020f\u00E1brica\u0020crea.",
+            "url": "classes/Database-Factories-UsuarioFactory.html#property_model"
         },                {
             "fqsen": "\\Database\\Factories\\VehiculoFactory",
             "name": "VehiculoFactory",
@@ -413,8 +438,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Database\\Factories\\VehiculoFactory\u003A\u003Adefinition\u0028\u0029",
             "name": "definition",
-            "summary": "Define\u0020el\u0020estado\u0020predeterminado\u0020del\u0020modelo\u0020de\u0020veh\u00EDculo.",
+            "summary": "Define\u0020el\u0020estado\u0020predeterminado\u0020del\u0020modelo.",
             "url": "classes/Database-Factories-VehiculoFactory.html#method_definition"
+        },                {
+            "fqsen": "\\Database\\Factories\\VehiculoFactory\u003A\u003A\u0024model",
+            "name": "model",
+            "summary": "El\u0020nombre\u0020del\u0020modelo\u0020que\u0020la\u0020f\u00E1brica\u0020crea.",
+            "url": "classes/Database-Factories-VehiculoFactory.html#property_model"
         },                {
             "fqsen": "\\Database\\Seeders\\DatabaseSeeder",
             "name": "DatabaseSeeder",
@@ -431,6 +461,26 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html#constant_LARAVEL_START"
         },                {
+            "fqsen": "\\Tests\\Feature\\AuthTest",
+            "name": "AuthTest",
+            "summary": "",
+            "url": "classes/Tests-Feature-AuthTest.html"
+        },                {
+            "fqsen": "\\Tests\\Feature\\AuthTest\u003A\u003Aan_admin_can_access_admin_routes\u0028\u0029",
+            "name": "an_admin_can_access_admin_routes",
+            "summary": "",
+            "url": "classes/Tests-Feature-AuthTest.html#method_an_admin_can_access_admin_routes"
+        },                {
+            "fqsen": "\\Tests\\Feature\\AuthTest\u003A\u003Aan_empleado_can_access_empleado_routes\u0028\u0029",
+            "name": "an_empleado_can_access_empleado_routes",
+            "summary": "",
+            "url": "classes/Tests-Feature-AuthTest.html#method_an_empleado_can_access_empleado_routes"
+        },                {
+            "fqsen": "\\Tests\\Feature\\AuthTest\u003A\u003Aan_cliente_can_access_cliente_routes\u0028\u0029",
+            "name": "an_cliente_can_access_cliente_routes",
+            "summary": "",
+            "url": "classes/Tests-Feature-AuthTest.html#method_an_cliente_can_access_cliente_routes"
+        },                {
             "fqsen": "\\Tests\\Feature\\DatabaseMigrationTest",
             "name": "DatabaseMigrationTest",
             "summary": "",
@@ -441,20 +491,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Tests-Feature-DatabaseMigrationTest.html#method_all_tables_are_created"
         },                {
-            "fqsen": "\\Tests\\Feature\\ExampleTest",
-            "name": "ExampleTest",
+            "fqsen": "\\Tests\\Feature\\VehiculoControllerTest",
+            "name": "VehiculoControllerTest",
             "summary": "",
-            "url": "classes/Tests-Feature-ExampleTest.html"
+            "url": "classes/Tests-Feature-VehiculoControllerTest.html"
         },                {
-            "fqsen": "\\Tests\\Feature\\ExampleTest\u003A\u003Atest_the_application_returns_a_successful_response\u0028\u0029",
-            "name": "test_the_application_returns_a_successful_response",
-            "summary": "A\u0020basic\u0020test\u0020example.",
-            "url": "classes/Tests-Feature-ExampleTest.html#method_test_the_application_returns_a_successful_response"
+            "fqsen": "\\Tests\\Feature\\VehiculoControllerTest\u003A\u003Aan_admin_can_create_a_vehicle\u0028\u0029",
+            "name": "an_admin_can_create_a_vehicle",
+            "summary": "",
+            "url": "classes/Tests-Feature-VehiculoControllerTest.html#method_an_admin_can_create_a_vehicle"
         },                {
             "fqsen": "\\Tests\\TestCase",
             "name": "TestCase",
             "summary": "",
             "url": "classes/Tests-TestCase.html"
+        },                {
+            "fqsen": "\\Tests\\Unit\\AlquilerTest",
+            "name": "AlquilerTest",
+            "summary": "",
+            "url": "classes/Tests-Unit-AlquilerTest.html"
+        },                {
+            "fqsen": "\\Tests\\Unit\\AlquilerTest\u003A\u003Ait_can_create_a_rental\u0028\u0029",
+            "name": "it_can_create_a_rental",
+            "summary": "",
+            "url": "classes/Tests-Unit-AlquilerTest.html#method_it_can_create_a_rental"
         },                {
             "fqsen": "\\Tests\\Unit\\EloquentRelationshipsTest",
             "name": "EloquentRelationshipsTest",
@@ -485,6 +545,16 @@ Search.appendIndex(
             "name": "it_can_create_and_save_a_usuario",
             "summary": "",
             "url": "classes/Tests-Unit-UsuarioTest.html#method_it_can_create_and_save_a_usuario"
+        },                {
+            "fqsen": "\\Tests\\Unit\\VehiculoTest",
+            "name": "VehiculoTest",
+            "summary": "",
+            "url": "classes/Tests-Unit-VehiculoTest.html"
+        },                {
+            "fqsen": "\\Tests\\Unit\\VehiculoTest\u003A\u003Ait_can_create_a_vehicle\u0028\u0029",
+            "name": "it_can_create_a_vehicle",
+            "summary": "",
+            "url": "classes/Tests-Unit-VehiculoTest.html#method_it_can_create_a_vehicle"
         },                {
             "fqsen": "\\",
             "name": "\\",
